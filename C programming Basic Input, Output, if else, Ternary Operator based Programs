@@ -1,0 +1,216 @@
+#include <math.h>
+#include <stdio.h>
+#define PI 3.14
+
+int main(int argc, const char * argv[]) {
+    //find cube root
+  /*int a, cube;
+    printf("enter a number you want to find out the cube root:");
+    scanf("%d",&a);
+    cube= pow(a,10);
+    printf("%d", cube);
+*/
+    
+    
+    //Program to find quotient and remainder in C
+    
+  /*  int divident,divisor, remainder,quotient;
+    printf("enter the divident:");
+    scanf("%d",&divident);
+    printf("enter the divisor:");
+    scanf("%d",&divisor);
+    quotient = divident/divisor;
+    remainder = divident%divisor;
+    printf("quotient is %d\n",quotient);
+    printf("remainder is %d\n",remainder);
+  */
+    
+    
+    //In this C program, we are going to learn how to calculate simple interest, when principle, rate and time are given?
+    
+  /*  float principal,rate,time;
+    printf("enter the principal(amount):");
+    scanf("%f",&principal);
+    printf("enter the rate:");
+    scanf("%f",&rate);
+    printf("enter the time(in year):");
+    scanf("%f",&time);
+    float si = (principal * rate * time)/100;
+    printf("simple interest is %f",si);
+  */
+    // C program for EVEN or ODD: Here, we are reading an integer number from the user and checking whether it is EVEN or ODD.
+    
+ /*    int num;
+    printf("enter a integer:");
+           scanf("%d",&num);
+
+ If number is divisible by 2 then number
+  is EVEN otherwise number is ODD
+  
+    if(num%2==0){
+        printf("%d is a even number\n",num);
+        
+    }else{
+        printf("%d is a odd number\n",num);
+    }
+  */
+    
+  //  C program to find Largest Number among three numbers
+ /*   int num1, num2, num3;
+    int largest;
+    printf("enter the three number:");
+    scanf("%d %d %d",&num1,&num2,&num3);
+    if (num1>num2 && num1>num3 ){
+        
+        largest=num1;
+    }else if(num2>num1 &&num2>num3){
+        largest = num2;
+        
+    }else{
+        largest = num3;
+        
+    }
+  
+  //Using Ternary Operator (? : Operator)
+    largest = ((num1>num2 && num1>num3)? num1:(num2>num1 &&num2>num3)?num2:num3);
+    printf("largest number is %d\n",largest);
+  */
+    
+    
+    //Given age of a person and we have to check whether person is eligible for voting or not.
+ /*   int age;
+    printf("enter age of candidate:");
+    scanf("%d",&age);
+    if(age>=18){
+        printf("this person is eligible for voting\n");
+        
+    }else{
+        printf("this candidate is not eligible for voting due to under 18\n");
+    }
+  */
+    
+    //In this C program, we are going to read marks in 3 subjects, we will find the total, percentage and print the division based on the percentage.
+    
+   /* float sci, math, eng;
+    printf("Enter the number in science:");
+    scanf("%f",&sci);
+    printf("Enter the number in math:");
+    scanf("%f",&math);
+    printf("Enter the number in eng:");
+    scanf("%f",&eng);
+     
+    float total;
+    total = sci+math+eng;
+    float per = (total*100)/300;
+    printf("total number is %.2f\n",total);
+    printf("percentage is %.2f\n",per);
+    
+    if(per>=60){
+        printf("first division");
+    }else if(per>=50){
+        printf("second division");}
+     else if(per>=40){
+            printf("third division");
+        }
+    else{
+        printf("fail");
+    }
+    
+   */
+    
+    //C program for Gross Salary
+    
+/*    char name[10] ;
+    float gross;
+   float salary , hra, da, pf;
+    printf("enter the name of candidate:");
+        //fgets(name,sizeof(char)*10,stdin);
+    scanf("%s",&name);
+    printf("enter the basic salary:");
+    scanf("%f",&salary);
+    printf("enter the hra:");
+    scanf("%f",&hra);
+    printf("enter da:");
+    scanf("%f",&da);
+   
+    pf= (salary*12)/100;
+    
+    gross = salary+ hra+ da+ pf;
+    printf("the gross salary of is %s %f ",name, gross);
+    */
+    
+    //C program to convert temperature from Fahrenheit to Celsius and Celsius to Fahrenheit.
+  /*  float cel, fah;
+   
+    int choice;
+    
+    printf("\n1:convert temperature  Fahrenheit to Celsius :");
+     printf("\n2:convert temperature  Fahrenheit to Celsius :\n");
+    printf("enter your choice:");
+    scanf("%d",&choice);
+    
+    if(choice==1){
+        printf("enter the fahrenheit:");
+        scanf("%f",&fah);
+        cel =(((fah-32)* 5)/9);
+        
+        printf("%.2f Fahrenheit is %.2f Celsius",fah,cel);
+        
+    }else{
+        printf("enter the celsius:");
+        scanf("%f",&cel);
+        fah = (cel *9/5) + 32;
+
+        printf("%.2f celsius is %.2f fahrenheit",cel, fah);
+    }
+    
+   */
+    //pow() function example/program to calculate X^N in c program
+    /*
+    int num,x;
+    printf("enter the value of base:");
+    scanf("%d",&num);
+    printf("enter the power of number:");
+    scanf("%d",&x);
+    int result = pow((double)num, x);
+    printf("result is %d",result);
+    
+    */
+    //C program to print size of variables using sizeof() operator.
+  /*  char a = 'A';
+    int b = 11;
+    float c= 23.3;
+    double d = 34.22;
+    long e = 2345.435235;
+    printf("size of a :%d\n",sizeof(a));
+    printf("size of b :%d\n",sizeof(b));
+    printf("size of c :%d\n",sizeof(c));
+    printf("size of d :%d\n",sizeof(d));
+    printf("size of e :%d\n",sizeof(e));
+    */
+   //  printf("\n\"Hello World!\"");
+    
+    //C program to find area and perimeter of circle.
+  /*  float radius ;
+    float area,circumstance;
+    
+    printf("enter the radius of circle:");
+    scanf("%f",&radius);
+    area = PI*radius*radius;
+    circumstance =2*PI*radius;
+    printf("area is %f\n perimeter is %f",area,circumstance);
+   */
+    //C program to find area of a rectangle.
+    
+    float length,breadth;
+    printf("enter the length of rectangle ");
+    scanf("%f",&length);
+    printf("enter the breadth of rectangle ");
+    scanf("%f",&breadth);
+    float area= length*breadth;
+    printf("area of rectangle %0.2f",area);
+    
+    
+    
+    return 0;
+}
